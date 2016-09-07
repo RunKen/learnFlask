@@ -40,3 +40,53 @@ Saved working directory and index state WIP on (no branch): 7e1e156 Chapter 1: i
 HEAD is now at 7e1e156 Chapter 1: initial version (1a)
 
 之后就可以切换 tag 了
+
+9-7
+Flask 3 day
+
+app.route修饰器
+
+状态码400-请求无效
+状态码302-重定向
+状态码404-URL中动态参数id对应的用户不存在
+
+拓展包含在flask.ext命名空间下
+
+书与现有模块使用方法略有差别
+现  runserver:
+		[-?] --help
+		[-h] --host
+
+模板：
+	包含响应文本的文件，包含占位变量表示的动态部分
+
+渲染：
+	使用真实值替代变量，再返回最终得到的响应字符串
+
+变量过滤器：
+	safe		渲染值时不转意
+	capitalize	把值的首字母转成大写，其余小写
+	lower		把值转换成小写
+	upper				  大写
+	title		值中每个单词的首字母转成大写
+	trim		把值得首尾空格去掉
+	striptagd	渲染前删掉HTML标签
+
+Flask-Script (拓展) ,为Flask程序添加一个命令行解析器
+Flask-Bootstrap (拓展) ,Twitter开发的开源客户端框架，提供用户界面组件，兼容所有现代Web浏览器
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
