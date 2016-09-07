@@ -50,6 +50,9 @@ app.route修饰器
 状态码302-重定向
 状态码404-URL中动态参数id对应的用户不存在
 
+错误代码404-客户端请求未知页面或路由
+错误代码500-有未处理的异常
+
 拓展包含在flask.ext命名空间下
 
 书与现有模块使用方法略有差别
@@ -72,8 +75,14 @@ app.route修饰器
 	trim		把值得首尾空格去掉
 	striptagd	渲染前删掉HTML标签
 
+//from flask.ext.__ import __
 Flask-Script (拓展) ,为Flask程序添加一个命令行解析器
 Flask-Bootstrap (拓展) ,Twitter开发的开源客户端框架，提供用户界面组件，兼容所有现代Web浏览器
+Flask-Moment (拓展) ,在浏览器中渲染日期和时间
+Flask-Wtf (拓展) ,处理Web表单
+
+flask核心功能flash()
+
 
 
 
