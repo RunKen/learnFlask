@@ -84,6 +84,29 @@ Flask-Wtf (拓展) ,处理Web表单
 flask核心功能flash()
 
 
+9.9
+Flask 5 day
+
+SQL数据库 (关系型数据库)
+NoSQL数据库(文档数据库 键值对数据库)
+
+
+9.13
+Flask 6 day
+
+ORM 对象关系映射
+ODM 对象文档映射
+
+Flask-SQLAlchemy
+
+将 在python中创建的对象写入数据库，需要先将对象添加到会话
+>>db.session.add(...)
+再将会话提交 commit
+>>db.session.commit()
+查询 query
+	filter.by() 过滤器
+
+
 
 
 
